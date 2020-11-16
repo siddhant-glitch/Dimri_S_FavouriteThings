@@ -34,16 +34,6 @@ main {
   overflow: hidden;
 }
 
-#houseImages {
-  position: relative;
-  width: 4000px;
-  transition: all 1s;
-}
-
-#houseImages img {
-  float: left;
-}
-
 #bottomNav {
   margin-top: 30px;
 }
