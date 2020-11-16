@@ -1,0 +1,11 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"db_favourite"},
+{"type":"table","name":"favouritethings","database":"db_favourite","data":
+[
+{"ID":"1","photo":"football.jpg","heading":"Football","paragraph":"I've been playing football for a decade now and I absolutely love to play a game or just freestyle when I have some free time. I'm a fan of Lionel Messi from day 1 and I rep Barca to the grave. I really hate it but I get aggressive sometimes with all the feelings associated with the game."},
+{"ID":"2","photo":"doggo.jpg","heading":"Pets","paragraph":"I just love pets. I have had really weird pets too, I love anything with a life, to be honest. Once my folks we're driving home from somewhere and my father noticed something moving on the road, so he parked on the empty road and when he got closer he saw that it was a little squirrel. That's how we found Gills..."},
+{"ID":"3","photo":"design.jpg","heading":"Design","paragraph":"As a designer, I had to put this here , no jk I really like to design and I think it is therapeutic for me in a way. I get really calm when I'm working on a project and I like that feeling. This summer(yeah, the disturbing 2020) I made a lot of design pieces and I learned a lot on my own and I'm really proud of that."}
+]
+}
+]
