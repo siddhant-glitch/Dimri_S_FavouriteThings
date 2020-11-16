@@ -8,6 +8,15 @@ import { fetchData } from "./modules/DataMiner.js";
     let lbClose = lightBox.querySelector("span");
     let things = document.querySelectorAll(".thingContainer");
     
+    function showLightbox() {
+
+        lightBox.classList.toggle('show-lightbox');
+        
+    }
+
+    lbClose.addEventListener("click", showLightbox);
+    things.forEach(thing => thing.addEventListener("click", showLightbox));
+
     function popErrorBox(message) {
         alert("Something has gone horribly, horribly wrong");
     }
@@ -54,16 +63,6 @@ import { fetchData } from "./modules/DataMiner.js";
             userSection.appendChild(currentUser);
         }
     }
-
-    
-    function showLightbox() {
-
-        lightBox.classList.toggle('show-lightbox');
-        
-    }
-
-    lbClose.addEventListener("click", showLightbox);
-    things.forEach(thing => thing.addEventListener("click", showLightbox));
         
     fetchData("./includes/index.php").then(data => renderPortfolioThumbnails(data)).catch(err => console.log(err));
 })();

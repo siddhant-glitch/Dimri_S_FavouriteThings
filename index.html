@@ -19,36 +19,34 @@
             <span class="close-lb">
                 x
             </span>
-        </section>
-            
-        <nav id="bottomNav">
-            <ul id="navList">
-                <!-- custom data attribute, allowing to pass custom data https://developer.mozilla.org/en/docs/Web/API/HTMLElement/dataset -->
-                <li><div class="thingContainer" data-offset="0" onclick="showLightbox()"></div></li>
-                <li><div class="thingContainer" data-offset="1" onclick="showLightbox()"></div></li>
-                <li><div class="thingContainer" data-offset="2" onclick="showLightbox()"></div></li>
-                <li><div class="thingContainer" data-offset="3" onclick="showLightbox()"></div></li>
-                <li><div class="thingContainer" data-offset="4" onclick="showLightbox()"></div></li>
-                <li><div class="thingContainer" data-offset="5" onclick="showLightbox()"></div></li>
-            </ul>
-        </nav>
-
+            <img src="images/doggo.jpg" width="500px">
             <section class="user-section">
             </section>
 
             <template id="user-template">
                 <div class="user">
                     <h1 class="hidden"></h1>
-                    <img src="images/temp.jpg" alt="user image">
+                    <img src="images/football.jpg" alt="insert image">
                     <!-- <h2 class="user-name"></h2>
                     <p class="user-nickname"></p>
                     <p class="user-role"></p> -->
                 </div>
             </template>
             <!-- end users section -->
+        </section>
+            
+        <nav id="bottomNav">
+            <ul id="navList">
+                <!-- custom data attribute, allowing to pass custom data https://developer.mozilla.org/en/docs/Web/API/HTMLElement/dataset -->
+                <li><div class="thingContainer" data-offset="0"><img src="images/football.jpg" width="100px"></div></li>
+                <li><div class="thingContainer" data-offset="1"><img src="images/doggo.jpg" width="100px"></div></li>
+                <li><div class="thingContainer" data-offset="2"><img src="images/design.jpg" width="100px"></div></li>
+            </ul>
+        </nav>
+
     </main>
 
-    <footer>footer</footer>
+    <footer></footer>
 
     <!-- script files always go here -->
     <script type="module" src="js/main.js"></script>
